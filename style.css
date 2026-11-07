@@ -3,18 +3,24 @@
             margin: 0;
             box-sizing: border-box;
         }
-        a {
-            text-decoration:underline;
+         nav a {
+            text-decoration:none;
             color:inherit;
+            padding-bottom: 8px;
             position: relative;
         }
         ul,
-        ol,
         li {
             list-style-type: none ;
         }
         body{
             font-family: Arial, Helvetica, sans-serif;
+        }
+         nav ul li a .active{
+            border-bottom: 3px solid wheat;
+        }
+        nav ul li a:hover{
+            border-bottom:3px solid wheat ;
         }
 
         header{
@@ -32,7 +38,7 @@
             align-items: center;
         }
         .active{
-            text-decoration:underline;
+            text-decoration: ;
            text-decoration-color: rgb(6, 187, 75);
            margin-top: 10px;
         }
@@ -46,7 +52,7 @@
             background-size: cover;
             font-size: 25px;
             align-items: center;
-            color: rgb(27, 4, 156);
+            color: rgb(88, 4, 156);
             text-align: center;
            background-position: center;  
              /* margin-button:150px */
